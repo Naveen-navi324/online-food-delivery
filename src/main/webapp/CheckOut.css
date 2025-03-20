@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefae0;
+    margin: 0;
+    padding: 0;
+}
+
+ /* Header styles */
+        .header {
+            background-color: #2563eb;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        .header-container {
+            max-width: 80rem;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #bfdbfe;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            transition: background-color 0.2s;
+        }
+
+        .nav a:hover {
+            background-color: #1d4ed8;
+        }
+/* Header Styles */
+header {
+    background-color: #6a4c93;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+/* Main Content */
+main {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Order Summary */
+.cart-summary {
+    background: #faf3e0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item p {
+    margin: 5px 0;
+}
+
+/* Form Styles */
+.form-section {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Checkout Button */
+.pay-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.pay-button:hover {
+    background-color: #e55b50;
+}
+.container {
+            text-align: center;
+            margin-top: 100px;
+        }
+        .warning {
+            font-size: 24px;
+            font-weight: bold;
+            color: orange;
+        }
+        .message {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .login-button {
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .login-button:hover {
+            background-color: darkorange;
+        }

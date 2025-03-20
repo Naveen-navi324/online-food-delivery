@@ -1,0 +1,244 @@
+/* === HEADER STYLING === */
+.header {
+    background-color: #007bff; /* Same blue color as in the image */
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Container for logo and nav */
+.header-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Navigation Container */
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Navigation Button Styling */
+.nav-button {
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Hover Effect */
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar Styling */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 180px; /* Slightly smaller */
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Cart Button Styling */
+.nav-button.cart {
+    background-color: transparent; /* Matches the background */
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-input {
+    width: 200px; /* Reduce width from 300px to 200px */
+    padding: 5px;  /* Reduce padding for a smaller look */
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+     flex-grow: 1; 
+     justify-content: center;
+     /* Slightly smaller font */
+}
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.quantity-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.quantity-btn:hover:not(:disabled) {
+    background-color: #e65c00;
+}
+
+.quantity-value {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+
+
+/* Menu Grid */
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Menu Item */
+.menu-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* Image Styling */
+.menu-item img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* Description */
+.menu-item .description {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Price & Availability */
+.menu-item .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.menu-item .availability {
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+}
+/* Center the heading */
+.menu-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Button */
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+    color: #ffc107;
+}
+
